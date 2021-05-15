@@ -39,7 +39,7 @@ Using AWS services, I built a serverless portal in which we can upload an image 
 - AWS Amplify
 
 ### For Execution
-You need an AWS account. Then clone the repository and create lambda and s3 buckets with the same names given in the code. Then run the react app using npm start to upload the image.
+You need an AWS account. Then clone the repository and create Lambda and S3 buckets with the same names given in the code. Then run the react app using npm start to upload the image.
 
 ---
 
@@ -56,11 +56,11 @@ The image is uploaded to the S3 bucket through the react website, the trigger wi
 
 ## Results
 ### Example 1
-When you upload this image
+When you upload the below image
 <p align="center">
   <img  src="README-IMAGES\photo.jpg" >  
 </p>
-The mail is 
+The Received mail is as follows. 
 <p align="center">
   <img  src="README-IMAGES\res2.PNG" >  
 </p>
@@ -69,9 +69,9 @@ The mail is
 ### Example 2
 When you upload this image
 <p align="center">
-  <img  src="README-IMAGES\pexels-photo-5082572.jpeg" >  
+  <img  src="README-IMAGES\pexels-photo-5082572.jpeg" height="200" >  
 </p>
-The mail is 
+The Received mail is as follows. 
 <p align="center">
   <img  src="README-IMAGES\res1.PNG" >  
 </p>
