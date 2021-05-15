@@ -39,7 +39,7 @@ Using AWS services, I built a serverless portal in which we can upload an image 
 - AWS Amplify
 
 ### For Execution
-You need an AWS account. Then clone the repository and create Lambda and S3 buckets with the same names given in the code. Then run the react app using npm start to upload the image.
+You need an AWS account. Then clone the repository and create Lambda and S3 buckets with the same names given in the code. Then run npm install and then run the app using npm start to upload the image.
 
 ---
 
@@ -91,51 +91,6 @@ When you delete above image from the S3 bucket
 
 ```
 AWS-Image-Upload-and-Recognize-Objects
-├─ .git
-│  ├─ config
-│  ├─ description
-│  ├─ HEAD
-│  ├─ hooks
-│  │  ├─ applypatch-msg.sample
-│  │  ├─ commit-msg.sample
-│  │  ├─ fsmonitor-watchman.sample
-│  │  ├─ post-update.sample
-│  │  ├─ pre-applypatch.sample
-│  │  ├─ pre-commit.sample
-│  │  ├─ pre-merge-commit.sample
-│  │  ├─ pre-push.sample
-│  │  ├─ pre-rebase.sample
-│  │  ├─ pre-receive.sample
-│  │  ├─ prepare-commit-msg.sample
-│  │  ├─ push-to-checkout.sample
-│  │  └─ update.sample
-│  ├─ index
-│  ├─ info
-│  │  └─ exclude
-│  ├─ logs
-│  │  ├─ HEAD
-│  │  └─ refs
-│  │     ├─ heads
-│  │     │  └─ main
-│  │     └─ remotes
-│  │        └─ origin
-│  │           └─ HEAD
-│  ├─ objects
-│  │  ├─ info
-│  │  └─ pack
-│  │     ├─ pack-452e51429bee301a3b29efcb25c066f1bdae522f.idx
-│  │     └─ pack-452e51429bee301a3b29efcb25c066f1bdae522f.pack
-│  ├─ packed-refs
-│  └─ refs
-│     ├─ heads
-│     │  └─ main
-│     ├─ remotes
-│     │  └─ origin
-│     │     └─ HEAD
-│     └─ tags
-├─ .gitignore
-├─ .vscode
-│  └─ settings.json
 ├─ create_email_recognize.py
 ├─ delete_email.py
 ├─ lambdas
